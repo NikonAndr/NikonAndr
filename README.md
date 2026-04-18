@@ -20,4 +20,12 @@ Developed a full **SystemVerilog UVM testbench**, including:
 
 **Outcome**: A complete testbench verification of UART communication and register model correctness under realistic conditions, with error handling and layered agent architecture.
 
+### C++ CLI Downloader
+* Implemented a command-line tool for downloading files over HTTP/HTTPS using libcurl
+* Designed a modular architecture separating HTTP communication, download logic, and file handling
+* Implemented streaming data processing to avoid full file buffering in memory
+* Added basic progress tracking and handled binary file writing
+Currently extending the project with additional features (e.g. improved error handling and
+performance)
+
 ⭐ Thanks for visiting my profile!
